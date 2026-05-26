@@ -1,0 +1,46 @@
+import type { Product } from "@/types/product";
+
+export const featuredProducts: Product[] = [
+  {
+    id: "dog-dental-treat",
+    name: "프리미엄 반려견 덴탈 간식",
+    brand: "GiftPet Select",
+    categoryId: "dog",
+    categoryName: "강아지",
+    price: 12900,
+    imageAlt: "프리미엄 반려견 덴탈 간식 패키지 이미지",
+    description: "도매 상담에 적합한 반려견 데일리 간식 상품입니다.",
+    badge: "추천",
+  },
+  {
+    id: "cat-salmon-treat",
+    name: "연어 고양이 트릿 100g",
+    brand: "Healthy Paw",
+    categoryId: "cat",
+    categoryName: "고양이",
+    price: 9800,
+    imageAlt: "연어 고양이 트릿 상품 이미지",
+    description: "소포장 납품과 매장 진열에 적합한 고양이 간식입니다.",
+    badge: "인기",
+  },
+  {
+    id: "pet-water-fountain",
+    name: "저소음 반려동물 급수기",
+    brand: "Care Mate",
+    categoryId: "dog",
+    categoryName: "공용 용품",
+    price: 45900,
+    imageAlt: "저소음 반려동물 급수기 상품 이미지",
+    description: "반려견과 반려묘 모두 사용할 수 있는 생활 용품입니다.",
+  },
+  {
+    id: "aquarium-water-care",
+    name: "수족관 수질 관리 키트",
+    brand: "Aqua Basic",
+    categoryId: "aquarium",
+    categoryName: "수족관",
+    price: 18500,
+    imageAlt: "수족관 수질 관리 키트 상품 이미지",
+    description: "관상어 매장과 용품점에 어울리는 관리 키트입니다.",
+  },
+];
